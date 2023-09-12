@@ -6,9 +6,10 @@ sudo apt install postgresql
 
 2. Добавления репозитория zabbix
 
-wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-
-release_6.0-4%2Bdebian11_all.deb
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4%2Bdebian11_all.deb
+
 dpkg -i zabbix-release_6.0-4+debian11_all.deb
+
 apt update
 
 3. Установка Zabbix сервер, веб-интерфейс
